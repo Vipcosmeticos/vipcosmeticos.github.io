@@ -1,4 +1,20 @@
 @charset "UTF-8";
+::-webkit-scrollbar {
+    width: 11px;
+}
+::-webkit-scrollbar-track {
+    width: 11px;
+    background:white;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+::-webkit-scrollbar-thumb {
+    background: #7e2689;
+    width: 0;
+    height: 25%;
+    transition: .5s ease;
+    cursor: pointer;
+}
 
 @font-face {
     font-display: swap;
