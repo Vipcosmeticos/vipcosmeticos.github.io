@@ -3584,7 +3584,7 @@ footer .social li a:hover {
     height: 200px;
     transform: scaleX(0);
     transform-origin: left;
-    background-color: #f3e3de;
+    background-color: #7d268994;
     animation: reveal 1s ease-in-out forwards;
     animation-delay: 1s;
     content: '';
@@ -3603,7 +3603,8 @@ footer .social li a:hover {
     left: 0;
     width: 218px;
     height: 124px;
-    background-image: url(../img/decor-about.png);
+    background-image: url(../img/grid.png);
+    opacity: 0 !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3728,7 +3729,7 @@ footer .social li a:hover {
     -o-transition: 0.5s;
     color: #222;
     font-family: Cormorant;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 2.08;
     transition: 0.5s;
@@ -6369,7 +6370,7 @@ body.page-about .slider-first-screen {
     }
 
     .shop-categories-unit__title {
-        font-size: calc(24px + 18 * (100vw / 1920));
+        font-size: calc(19px + 18 * (100vw / 1920));
     }
 
     .section-newsletter__form form input[type="text"] {
@@ -6874,7 +6875,7 @@ body.page-about .slider-first-screen {
     }
 
     .shop-categories-unit__title {
-        font-size: calc(24px + 40.8 * ((100vw - 320px) / 1920));
+        font-size: calc(20px + 40.8 * ((100vw - 320px) / 1920));
     }
 
     .section-newsletter__form form input[type="text"] {
