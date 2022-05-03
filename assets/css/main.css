@@ -3759,6 +3759,18 @@ footer .social li a:hover {
 .section-video__bg {
     display: block;
     position: relative;
+    background-image: url('../img/home-video.jpg');
+    height: 75vh;
+    align-items: center;
+    margin: 0 auto;
+}
+@media (max-width: 500px) {
+    .video-container{
+        width: 20%;
+    }
+}
+.video-container{
+    width: 100%;
 }
 
 .section-video__link {
