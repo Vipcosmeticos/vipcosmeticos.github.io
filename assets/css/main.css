@@ -6892,7 +6892,8 @@ body.page-about .slider-first-screen {
     }
 
     .section-hero__subtitle {
-        font-size: calc(12px + 40.8 * ((100vw - 320px) / 1920));
+        font-size: calc(24px + 40.8 * ((100vw - 320px) / 1920));
+        letter-spacing: 0.30em;
     }
 
     .section-shop-categories__title {
