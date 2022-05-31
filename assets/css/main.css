@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 ::-webkit-scrollbar {
     width: 11px;
 }
@@ -2413,6 +2418,7 @@ footer .social li a:hover {
     animation: reveal 1s reverse forwards;
     animation-delay: 1s;
     content: '';
+    border-radius: 10px;
 }
 
 .img-animate._active img {
@@ -3582,6 +3588,10 @@ footer .social li a:hover {
     height: 0;
     padding-top: 100%;
     content: '';
+    
+}
+.img-animate img {
+    border-radius: 10px;
 }
 
 .section-about__media::before {
