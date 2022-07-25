@@ -1,5 +1,6 @@
 User-agent: Googlebot
 User-agent: *
 Disallow:
+Allow: /
 
 Sitemap: https://www.vipcosmeticos.net/sitemap.xml
