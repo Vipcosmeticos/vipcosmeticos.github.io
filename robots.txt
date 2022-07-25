@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: 
-Disallow: /
+Disallow:
+
+Sitemap: https://www.vipcosmeticos.net/sitemap.xml
