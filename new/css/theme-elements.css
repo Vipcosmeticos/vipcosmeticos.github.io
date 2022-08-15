@@ -2,7 +2,7 @@
 /*
 Name: 			theme-elements.css
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.6.0
+Theme Version:	9.7.0
 */
 /* Accordion */
 .accordion .card {
@@ -261,6 +261,14 @@ Theme Version:	9.6.0
 
 .transition-4ms {
 	transition: all 0.4s ease-in-out;
+}
+
+.transition-5ms {
+	transition: all 0.5s ease-in-out;
+}
+
+.transition-1s {
+	transition: all 1s ease-in-out;
 }
 
 /* Transition Magnetic */
@@ -12902,6 +12910,11 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 	position: absolute;
 }
 
+.progress-reading {
+	z-index: 99999;
+	height: 8px;
+}
+
 /* Popup */
 .popup-inline-content,
 .mfp-content .ajax-container {
@@ -17810,6 +17823,39 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	}
 }
 
+.thumb-info-container-full-img {
+	overflow: hidden;
+	position: relative;
+}
+
+.thumb-info-container-full-img .thumb-info-container-full-img-large {
+	opacity: 0;
+	transform: scale(1.025);
+	transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+	transition-property: opacity, transform;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 50% 0;
+}
+
+.thumb-info-container-full-img .thumb-info-container-full-img-large.active {
+	opacity: 1 !important;
+}
+
+.thumb-info-container-full-img .thumb-info-wrapper img {
+	transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+	transition-property: opacity, transform;
+}
+
+.thumb-info-container-full-img .owl-stage-outer:hover .thumb-info-wrapper img {
+	opacity: 0;
+}
+
 /* Timeline */
 section.timeline {
 	width: 100%;
@@ -18425,6 +18471,28 @@ p.drop-caps.drop-caps-style-2:first-letter {
 .text-default,
 .text-color-default {
 	color: #777 !important;
+}
+
+/* Marquee */
+.marquee {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/* Mark */
+.mark.mark-gradient {
+	position: relative;
+	z-index: 0;
+}
+
+.mark.mark-gradient:before {
+	content: '';
+	height: 30%;
+	width: 100%;
+	bottom: 15%;
+	position: absolute;
+	left: -2%;
+	z-index: -1;
 }
 
 /* Video */

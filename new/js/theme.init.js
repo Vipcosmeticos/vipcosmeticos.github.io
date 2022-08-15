@@ -25,6 +25,15 @@
 		theme.PluginValidation.initialize();
 	}
 
+	// Marquee
+	$('.marquee').marquee({
+		duration: 5000,
+		gap: 0,
+		delayBeforeStart: 0,
+		direction: 'left',
+		duplicated: true
+	});
+
 
 
 	// Animate
@@ -121,6 +130,24 @@
 	// Animated Icon
 	if ($.isFunction($.fn['themePluginIcon']) && $('[data-icon]').length) {
 		theme.fn.dynIntObsInit( '[data-icon]:not(.svg-inline--fa)', 'themePluginIcon', theme.PluginIcon.defaults );
+	}
+
+	// In Viewport Style
+	if ($.isFunction($.fn['themePluginInViewportStyle']) && $('[data-inviewport-style]').length) {
+
+		$(function() {
+			$('[data-inviewport-style]:not(.manual)').each(function() {
+				var $this = $(this),
+					opts;
+
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
+				if (pluginOptions)
+					opts = pluginOptions;
+
+				$this.themePluginInViewportStyle(opts);
+			});
+		});
+
 	}
 
 	// Lightbox

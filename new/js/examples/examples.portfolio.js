@@ -1,7 +1,7 @@
 /*
 Name: 			Portfolio - Examples
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.6.0
+Theme Version:	9.7.0
 */
 (function($) {
 

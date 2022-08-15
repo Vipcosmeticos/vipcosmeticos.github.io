@@ -1,7 +1,7 @@
 /*
 Name: 			theme.css
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.6.0
+Theme Version:	9.7.0
 */
 html {
 	direction: ltr;
@@ -1395,6 +1395,7 @@ html:not(.sticky-header-active) #header.header-transparent-dark-bottom-border-1 
 @media (max-width: 991px) {
 	html #header.header-transparent .header-body {
 		overflow: hidden;
+		height: auto !important;
 	}
 
 	html #header.header-transparent .header-body.bg-dark .header-nav-main:before, html #header.header-transparent .header-body.bg-color-dark .header-nav-main:before {
@@ -7645,11 +7646,19 @@ html.dark .text-muted {
 	color: #212529 !important;
 }
 
+.inner-text-dark * {
+	color: #212529 !important;
+}
+
 a.text-dark:focus, a.text-dark:hover {
 	color: #121416 !important;
 }
 
 .text-light {
+	color: #FFF !important;
+}
+
+.inner-text-light * {
 	color: #FFF !important;
 }
 

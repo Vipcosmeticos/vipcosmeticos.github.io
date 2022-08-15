@@ -2577,6 +2577,36 @@ html .word-rotator.loading-bar-dark .word-rotator-words::after {
 html .word-rotator.loading-bar-light .word-rotator-words::after {
 	background-color: #FFF;
 }
+/* Mark */
+html .mark.mark-gradient.mark-gradient-primary:before {
+	background: #0088cc;
+	background: linear-gradient(90deg, #0088cc 0%, rgba(0, 136, 204, 0) 100%);
+}
+
+html .mark.mark-gradient.mark-gradient-secondary:before {
+	background: #e36159;
+	background: linear-gradient(90deg, #e36159 0%, rgba(227, 97, 89, 0) 100%);
+}
+
+html .mark.mark-gradient.mark-gradient-tertiary:before {
+	background: #2baab1;
+	background: linear-gradient(90deg, #2baab1 0%, rgba(43, 170, 177, 0) 100%);
+}
+
+html .mark.mark-gradient.mark-gradient-quaternary:before {
+	background: #383f48;
+	background: linear-gradient(90deg, #383f48 0%, rgba(56, 63, 72, 0) 100%);
+}
+
+html .mark.mark-gradient.mark-gradient-dark:before {
+	background: #212529;
+	background: linear-gradient(90deg, #212529 0%, rgba(33, 37, 41, 0) 100%);
+}
+
+html .mark.mark-gradient.mark-gradient-light:before {
+	background: #ffffff;
+	background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
 
 .process .process-step-circle {
 	border-color: #0088CC;
