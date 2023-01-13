@@ -15,8 +15,8 @@ body {
 }
 
 .background {
-    background: url(../img/img6.png);
-    opacity: 0.6;
+    background: url(../img/background.jpg);
+    opacity: 0.9;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
