@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+::-webkit-scrollbar{
+    width: 5px
+}
+
+::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0.04)
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top, #cc00ff, #7000ff);
+}
+
 .logo{
     max-width: 40px;
 }
@@ -1803,7 +1815,7 @@ a.metaportal_fn_videobutton:hover .icon {
 #about2,
 .metaportal_fn_collectionpage,
 .metaportal_fn_comments {
-    padding: 150px 0
+    padding: 100px 0
 }
 
 .fn_cs_section_divider {
@@ -2903,7 +2915,7 @@ a.metaportal_fn_videobutton:hover .icon {
     color: #bbb;
     position: fixed;
     right: 40px;
-    top: 40px;
+    top: 20px;
     cursor: pointer;
     text-decoration: none
 }
