@@ -10523,13 +10523,13 @@ header.style-15 .countdown-content .logos img {
 .screenshots.style-4 .screenshots-slider .img {
   margin: 0 auto;
   height: 420px;
-  width: 190px;
+  width: 195px;
 }
 .screenshots.style-4 .screenshots-slider .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px;
 }
 .screenshots.style-4 .mob-hand {
@@ -16299,6 +16299,12 @@ footer.style-15 .foot p {
     width: 100%;
   }
 }
+@media screen and (min-width: 491px){
+  .teste{
+    width: 100px!important;
+  }
+}
+
 /* ===============================================================
 			[ * responsive style ] 
 ================================================================*/
@@ -16816,7 +16822,7 @@ header.style-4 .content .info .btn {
   }
   .screenshots.style-4 .screenshots-slider {
     width: 100%;
-    left: 0;
+    left: -8px;
   }
   .screenshots.style-4 .screenshots-slider .img {
     margin: 0 auto;
@@ -17868,7 +17874,7 @@ header.style-6 .info h1 span small {
 @media screen and (max-width: 480px) {
   .screenshots.style-4 .screenshots-slider .img {
     margin: 0 auto;
-    width: 150px;
+    width: 143px;
     height: 300px;
   }
   .screenshots.style-4 .mob-hand {
